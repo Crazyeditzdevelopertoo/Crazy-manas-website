@@ -1,0 +1,466 @@
+.Sidebar {
+  position: fixed;
+  top: 59px;
+  left: 0px;
+  bottom: 0px;
+  scroll-behavior: smooth;
+  scrollbar-width: 3px;
+  height: 3000px;
+  width: 230px;
+  background-color: hsl(0,0%,7%);
+  overflow-y: scroll auto;
+}
+
+.home-button {
+  position: relative;
+  background-color: rgb(45 45 45);
+  height: 39px;
+  width: 203px;
+  margin-top: 10px; 
+  margin-left: 3px;
+  border: none;
+  border-radius: 10px;
+}
+
+.home-button:hover {
+  background-color: rgb(73, 73, 73);
+  cursor: pointer;
+}
+
+.home-button-text {
+  font-size: 14px;
+  font-weight: 600; 
+  color: white; 
+  font-family: "roboto", Helvetica, sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 59px;
+}
+
+.home-icon {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  height: 24px;
+}
+
+.shorts-button {
+  position: relative;
+  background-color: hsl(0,0%,7%);
+  height: 39px;
+  width: 203px;
+  margin-top: -3px; 
+  margin-left: 3px;
+  border: none;
+  border-radius: 10px;
+}
+
+.shorts-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.shorts-icon {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  height: 24px;
+}
+
+.shorts-button-text {
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Helvetica, sans-serif;
+  position: absolute;
+  top: 9px;
+  left: 59px;
+}
+
+.subscription-button {
+  position: relative;
+  background-color: hsl(0,0%,7%);
+  height: 39px;
+  width: 203px;
+  margin-top: -3px; 
+  margin-left: 3px;
+  border: none;
+  border-radius: 10px;
+}
+
+.subscription-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.subscription-icon {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  height: 24px;
+}
+
+.subscription-button-text {
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Helvetica, sans-serif;
+  position: absolute;
+  top: 10px;
+  left: 59px;
+}
+
+.button-set-1 {
+  border: solid;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(65, 65, 65);
+  height: 141px;
+  margin-left: 10px;
+}
+
+.button-set-2 {
+  position: relative;
+  border: solid;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(65, 65, 65);
+  height: 304px;
+}
+
+.you-button {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  text-align: left;
+  padding-left: 11px;
+  padding-bottom: 3px;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: "roboto", Helvetica, sans-serif;
+  color: white;
+  background-color: hsl(0,0%,7%);
+  height: 39px;
+  width: 203px;
+  margin-top: -3px; 
+  margin-left: 13px;
+  border: none;
+  border-radius: 10px;
+}
+
+.you-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.you-button-arrow {
+  position: absolute;
+  top: 10px;
+  left: 41px;
+}
+
+.history-icon {
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  height: 24px;
+}
+
+.history-button {
+  position: relative;
+  top: 51px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.history-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.history-button-text {
+  position: absolute;
+  top: 10px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Helvetica, sans-serif;
+}
+
+.playlist-button {
+  position: relative;
+  top: 50px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.playlist-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.playlist-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  height: 24px;
+}
+
+.playlist-button-text {
+  position: absolute;
+  top: 9px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.your-videos-button {
+  position: relative;
+  top: 49px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.your-videos-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  height: 24px;
+}
+
+.your-videos-button-text {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.your-videos-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.watch-later-button {
+  position: relative;
+  top: 47px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.watch-later-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.watch-later-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  height: 24px;
+}
+
+.watch-later-button-text {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.liked-videos-button {
+  position: relative;
+  top: 45px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.liked-videos-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.liked-videos-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  height: 24px;
+}
+
+.liked-videos-button-text {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.your-clips-button {
+  position: relative;
+  top: 43px;
+  left: 14px;
+  height: 39px;
+  width: 203px;
+  border-radius: 10px;
+  background-color: hsl(0,0%,7%);
+  color: white;
+  border: none;
+}
+
+.your-clips-button:hover {
+  background-color: rgb(45, 45, 45);
+  cursor: pointer;
+}
+
+.your-clips-icon {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  height: 24px;
+}
+
+.your-clips-button-text {
+  position: absolute;
+  top: 8px;
+  left: 58px;
+  font-size: 14px;
+  font-weight: normal; 
+  color: white; 
+  font-family: "roboto", Arial, sans-serif;
+}
+
+.button-set-3 {
+  position: relative;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 46px;
+}
+
+.subscription-text-2 {
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 17px;
+  left: 24px;
+}
+
+.muse-india-button {
+  border: none;
+  border-radius: 10px;
+  height: 39px;
+  width: 222px;
+  margin-left: 13px;
+  padding-left: 10px;
+  background-color: hsl(0,0%,7%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.muse-india-button:hover{
+  background-color: rgb(45 45 45);
+  cursor: pointer;
+}
+
+.muse-india-text {
+  color: white;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: normal;
+  width: fit-content;
+  margin-left: -52px;
+}
+
+.muse-india-icon {
+  height: 24px;
+  border-radius: 50px;
+}
+
+.muse-india-live-icon {
+  height: 17px;
+}
+
+.night-button {
+  border: none;
+  border-radius: 10px;
+  height: 39px;
+  width: 222px;
+  margin-left: 13px;
+  padding-left: 10px;
+  background-color: hsl(0,0%,7%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.night-button:hover {
+  background-color: rgb(45 45 45);
+  cursor: pointer;
+}
+
+.night-text {
+  color: white;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: normal;
+  width: fit-content;
+  margin-left: -10px;
+}
+
+.night-icon {
+  height: 24px;
+  border-radius: 50px;
+}
+
+.night-live-icon {
+  height: 17px;
+}
+
+.copy-text {
+  color: white;
+  width: fit-content;
+  margin-left: -102px;
+}
